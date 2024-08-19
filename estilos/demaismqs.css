@@ -34,13 +34,22 @@ section#login > div#imagem{
         width: 950px !important;
     }
     section#login > div#imagem{
-        float: right;
+        float: left;
         width: 50% !important;
         height: 100% !important;
     }
     section#login > div#formulario{
-        float: left !important;
-        width: 50% !important;
+        position: relative;
+        float: right !important;
+        width: 410px !important;
     }
+
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+    div#formulario > p{
+        font-size: 1.2em;
+      }
     
   }
