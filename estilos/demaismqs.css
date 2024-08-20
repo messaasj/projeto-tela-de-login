@@ -22,7 +22,34 @@ section#login > div#imagem{
     width: 30% !important;
     height: 100% !important;
 }
-    
+form > input[type=submit] {
+    float: right !important;
+    width: 70% !important;
+}
+
+form > a.botao {
+    float: right !important;
+    width: 70% !important;
+}
+  
+  form > input[type=submit]:hover{
+    background-color: #295a58 !important;
+  }
+  
+  div.campo > input{
+    background-color: #55bbb8;
+    font-size: 1em !important;
+    width: calc(89% - 10px) !important;
+    transform: translate(32px) !important;
+    height: 83% !important;
+    border: 0px !important;
+    border-radius: 8px !important;
+    padding: 4px !important;
+    position: relative !important;
+    bottom: 37px !important;
+  }
+  
+   
   }
   @media screen and (min-width: 992px){
     
@@ -51,5 +78,16 @@ section#login > div#imagem{
     div#formulario > p{
         font-size: 1.2em;
       }
-    
+      div.campo > input{
+        background-color: #55bbb8;
+        font-size: 1em;
+        width: calc(91% - 10px) !important;
+        transform: translate(40px) !important;
+        height: 83%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+        position: relative;
+        bottom: 37px;
+      }
   }
