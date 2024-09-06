@@ -82,7 +82,7 @@ form > a.botao {
         background-color: #55bbb8;
         font-size: 1em;
         width: calc(91% - 10px) !important;
-        transform: translate(40px) !important;
+        transform: translate(45px) !important;
         height: 83%;
         border: 0px;
         border-radius: 8px;
